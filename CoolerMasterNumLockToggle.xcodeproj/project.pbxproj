@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370978A91FFC4751009164DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370978A81FFC4751009164DE /* AppDelegate.swift */; };
+		370978AB1FFC4751009164DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370978AA1FFC4751009164DE /* Assets.xcassets */; };
+		370978AE1FFC4751009164DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370978AC1FFC4751009164DE /* MainMenu.xib */; };
+		370978BA1FFC4751009164DE /* CoolerMasterNumLockToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370978B91FFC4751009164DE /* CoolerMasterNumLockToggleTests.swift */; };
+		370978C51FFC4751009164DE /* CoolerMasterNumLockToggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370978C41FFC4751009164DE /* CoolerMasterNumLockToggleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370978B61FFC4751009164DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3709789D1FFC4751009164DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370978A41FFC4751009164DE;
+			remoteInfo = CoolerMasterNumLockToggle;
+		};
+		370978C11FFC4751009164DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3709789D1FFC4751009164DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370978A41FFC4751009164DE;
+			remoteInfo = CoolerMasterNumLockToggle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370978A51FFC4751009164DE /* CoolerMasterNumLockToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolerMasterNumLockToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		370978A81FFC4751009164DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		370978AA1FFC4751009164DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370978AD1FFC4751009164DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		370978AF1FFC4751009164DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370978B01FFC4751009164DE /* CoolerMasterNumLockToggle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoolerMasterNumLockToggle.entitlements; sourceTree = "<group>"; };
+		370978B51FFC4751009164DE /* CoolerMasterNumLockToggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolerMasterNumLockToggleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370978B91FFC4751009164DE /* CoolerMasterNumLockToggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolerMasterNumLockToggleTests.swift; sourceTree = "<group>"; };
+		370978BB1FFC4751009164DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370978C01FFC4751009164DE /* CoolerMasterNumLockToggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolerMasterNumLockToggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370978C41FFC4751009164DE /* CoolerMasterNumLockToggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolerMasterNumLockToggleUITests.swift; sourceTree = "<group>"; };
+		370978C61FFC4751009164DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370978A21FFC4751009164DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370978B21FFC4751009164DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370978BD1FFC4751009164DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3709789C1FFC4751009164DE = {
+			isa = PBXGroup;
+			children = (
+				370978A71FFC4751009164DE /* CoolerMasterNumLockToggle */,
+				370978B81FFC4751009164DE /* CoolerMasterNumLockToggleTests */,
+				370978C31FFC4751009164DE /* CoolerMasterNumLockToggleUITests */,
+				370978A61FFC4751009164DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		370978A61FFC4751009164DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370978A51FFC4751009164DE /* CoolerMasterNumLockToggle.app */,
+				370978B51FFC4751009164DE /* CoolerMasterNumLockToggleTests.xctest */,
+				370978C01FFC4751009164DE /* CoolerMasterNumLockToggleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370978A71FFC4751009164DE /* CoolerMasterNumLockToggle */ = {
+			isa = PBXGroup;
+			children = (
+				370978A81FFC4751009164DE /* AppDelegate.swift */,
+				370978AA1FFC4751009164DE /* Assets.xcassets */,
+				370978AC1FFC4751009164DE /* MainMenu.xib */,
+				370978AF1FFC4751009164DE /* Info.plist */,
+				370978B01FFC4751009164DE /* CoolerMasterNumLockToggle.entitlements */,
+			);
+			path = CoolerMasterNumLockToggle;
+			sourceTree = "<group>";
+		};
+		370978B81FFC4751009164DE /* CoolerMasterNumLockToggleTests */ = {
+			isa = PBXGroup;
+			children = (
+				370978B91FFC4751009164DE /* CoolerMasterNumLockToggleTests.swift */,
+				370978BB1FFC4751009164DE /* Info.plist */,
+			);
+			path = CoolerMasterNumLockToggleTests;
+			sourceTree = "<group>";
+		};
+		370978C31FFC4751009164DE /* CoolerMasterNumLockToggleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				370978C41FFC4751009164DE /* CoolerMasterNumLockToggleUITests.swift */,
+				370978C61FFC4751009164DE /* Info.plist */,
+			);
+			path = CoolerMasterNumLockToggleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370978A41FFC4751009164DE /* CoolerMasterNumLockToggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370978C91FFC4751009164DE /* Build configuration list for PBXNativeTarget "CoolerMasterNumLockToggle" */;
+			buildPhases = (
+				370978A11FFC4751009164DE /* Sources */,
+				370978A21FFC4751009164DE /* Frameworks */,
+				370978A31FFC4751009164DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolerMasterNumLockToggle;
+			productName = CoolerMasterNumLockToggle;
+			productReference = 370978A51FFC4751009164DE /* CoolerMasterNumLockToggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		370978B41FFC4751009164DE /* CoolerMasterNumLockToggleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370978CC1FFC4751009164DE /* Build configuration list for PBXNativeTarget "CoolerMasterNumLockToggleTests" */;
+			buildPhases = (
+				370978B11FFC4751009164DE /* Sources */,
+				370978B21FFC4751009164DE /* Frameworks */,
+				370978B31FFC4751009164DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370978B71FFC4751009164DE /* PBXTargetDependency */,
+			);
+			name = CoolerMasterNumLockToggleTests;
+			productName = CoolerMasterNumLockToggleTests;
+			productReference = 370978B51FFC4751009164DE /* CoolerMasterNumLockToggleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		370978BF1FFC4751009164DE /* CoolerMasterNumLockToggleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370978CF1FFC4751009164DE /* Build configuration list for PBXNativeTarget "CoolerMasterNumLockToggleUITests" */;
+			buildPhases = (
+				370978BC1FFC4751009164DE /* Sources */,
+				370978BD1FFC4751009164DE /* Frameworks */,
+				370978BE1FFC4751009164DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370978C21FFC4751009164DE /* PBXTargetDependency */,
+			);
+			name = CoolerMasterNumLockToggleUITests;
+			productName = CoolerMasterNumLockToggleUITests;
+			productReference = 370978C01FFC4751009164DE /* CoolerMasterNumLockToggleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3709789D1FFC4751009164DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jeff Peck";
+				TargetAttributes = {
+					370978A41FFC4751009164DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					370978B41FFC4751009164DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 370978A41FFC4751009164DE;
+					};
+					370978BF1FFC4751009164DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 370978A41FFC4751009164DE;
+					};
+				};
+			};
+			buildConfigurationList = 370978A01FFC4751009164DE /* Build configuration list for PBXProject "CoolerMasterNumLockToggle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3709789C1FFC4751009164DE;
+			productRefGroup = 370978A61FFC4751009164DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370978A41FFC4751009164DE /* CoolerMasterNumLockToggle */,
+				370978B41FFC4751009164DE /* CoolerMasterNumLockToggleTests */,
+				370978BF1FFC4751009164DE /* CoolerMasterNumLockToggleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370978A31FFC4751009164DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370978AB1FFC4751009164DE /* Assets.xcassets in Resources */,
+				370978AE1FFC4751009164DE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370978B31FFC4751009164DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370978BE1FFC4751009164DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370978A11FFC4751009164DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370978A91FFC4751009164DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370978B11FFC4751009164DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370978BA1FFC4751009164DE /* CoolerMasterNumLockToggleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370978BC1FFC4751009164DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370978C51FFC4751009164DE /* CoolerMasterNumLockToggleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		370978B71FFC4751009164DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370978A41FFC4751009164DE /* CoolerMasterNumLockToggle */;
+			targetProxy = 370978B61FFC4751009164DE /* PBXContainerItemProxy */;
+		};
+		370978C21FFC4751009164DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370978A41FFC4751009164DE /* CoolerMasterNumLockToggle */;
+			targetProxy = 370978C11FFC4751009164DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		370978AC1FFC4751009164DE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370978AD1FFC4751009164DE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		370978C71FFC4751009164DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		370978C81FFC4751009164DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		370978CA1FFC4751009164DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoolerMasterNumLockToggle/CoolerMasterNumLockToggle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P8RR443F8;
+				INFOPLIST_FILE = CoolerMasterNumLockToggle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peck.CoolerMasterNumLockToggle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		370978CB1FFC4751009164DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoolerMasterNumLockToggle/CoolerMasterNumLockToggle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P8RR443F8;
+				INFOPLIST_FILE = CoolerMasterNumLockToggle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peck.CoolerMasterNumLockToggle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		370978CD1FFC4751009164DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P8RR443F8;
+				INFOPLIST_FILE = CoolerMasterNumLockToggleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peck.CoolerMasterNumLockToggleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolerMasterNumLockToggle.app/Contents/MacOS/CoolerMasterNumLockToggle";
+			};
+			name = Debug;
+		};
+		370978CE1FFC4751009164DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P8RR443F8;
+				INFOPLIST_FILE = CoolerMasterNumLockToggleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peck.CoolerMasterNumLockToggleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolerMasterNumLockToggle.app/Contents/MacOS/CoolerMasterNumLockToggle";
+			};
+			name = Release;
+		};
+		370978D01FFC4751009164DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P8RR443F8;
+				INFOPLIST_FILE = CoolerMasterNumLockToggleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peck.CoolerMasterNumLockToggleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = CoolerMasterNumLockToggle;
+			};
+			name = Debug;
+		};
+		370978D11FFC4751009164DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4P8RR443F8;
+				INFOPLIST_FILE = CoolerMasterNumLockToggleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peck.CoolerMasterNumLockToggleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = CoolerMasterNumLockToggle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370978A01FFC4751009164DE /* Build configuration list for PBXProject "CoolerMasterNumLockToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370978C71FFC4751009164DE /* Debug */,
+				370978C81FFC4751009164DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370978C91FFC4751009164DE /* Build configuration list for PBXNativeTarget "CoolerMasterNumLockToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370978CA1FFC4751009164DE /* Debug */,
+				370978CB1FFC4751009164DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370978CC1FFC4751009164DE /* Build configuration list for PBXNativeTarget "CoolerMasterNumLockToggleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370978CD1FFC4751009164DE /* Debug */,
+				370978CE1FFC4751009164DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370978CF1FFC4751009164DE /* Build configuration list for PBXNativeTarget "CoolerMasterNumLockToggleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370978D01FFC4751009164DE /* Debug */,
+				370978D11FFC4751009164DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3709789D1FFC4751009164DE /* Project object */;
+}
