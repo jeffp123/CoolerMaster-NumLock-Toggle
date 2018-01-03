@@ -72,7 +72,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         statusBarItem = statusBar.statusItem(withLength: -1)
         statusBarItem.menu = menu
-        statusBarItem.title = "CM NumLockToggle"
+        statusBarItem.image = #imageLiteral(resourceName: "numlock-light-mode")
         statusBarItem.highlightMode = true
         
         let toggleMenuItem = NSMenuItem(title: "Toggle", action: #selector(toggle), keyEquivalent: "")

@@ -12,6 +12,7 @@
 		370978AE1FFC4751009164DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370978AC1FFC4751009164DE /* MainMenu.xib */; };
 		370978BA1FFC4751009164DE /* CoolerMasterNumLockToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370978B91FFC4751009164DE /* CoolerMasterNumLockToggleTests.swift */; };
 		370978C51FFC4751009164DE /* CoolerMasterNumLockToggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370978C41FFC4751009164DE /* CoolerMasterNumLockToggleUITests.swift */; };
+		370978E01FFC5B9E009164DE /* setleds.c in Sources */ = {isa = PBXBuildFile; fileRef = 370978DF1FFC5B9E009164DE /* setleds.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,9 @@
 		370978C01FFC4751009164DE /* CoolerMasterNumLockToggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolerMasterNumLockToggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370978C41FFC4751009164DE /* CoolerMasterNumLockToggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolerMasterNumLockToggleUITests.swift; sourceTree = "<group>"; };
 		370978C61FFC4751009164DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370978DD1FFC5B9D009164DE /* CoolerMasterNumLockToggle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoolerMasterNumLockToggle-Bridging-Header.h"; sourceTree = "<group>"; };
+		370978DE1FFC5B9E009164DE /* setleds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = setleds.h; sourceTree = "<group>"; };
+		370978DF1FFC5B9E009164DE /* setleds.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = setleds.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +98,14 @@
 		370978A71FFC4751009164DE /* CoolerMasterNumLockToggle */ = {
 			isa = PBXGroup;
 			children = (
+				370978DE1FFC5B9E009164DE /* setleds.h */,
+				370978DF1FFC5B9E009164DE /* setleds.c */,
 				370978A81FFC4751009164DE /* AppDelegate.swift */,
 				370978AA1FFC4751009164DE /* Assets.xcassets */,
 				370978AC1FFC4751009164DE /* MainMenu.xib */,
 				370978AF1FFC4751009164DE /* Info.plist */,
 				370978B01FFC4751009164DE /* CoolerMasterNumLockToggle.entitlements */,
+				370978DD1FFC5B9D009164DE /* CoolerMasterNumLockToggle-Bridging-Header.h */,
 			);
 			path = CoolerMasterNumLockToggle;
 			sourceTree = "<group>";
@@ -189,6 +196,7 @@
 				TargetAttributes = {
 					370978A41FFC4751009164DE = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					370978B41FFC4751009164DE = {
@@ -254,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370978E01FFC5B9E009164DE /* setleds.c in Sources */,
 				370978A91FFC4751009164DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -400,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -411,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CoolerMasterNumLockToggle/CoolerMasterNumLockToggle.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -419,6 +429,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peck.CoolerMasterNumLockToggle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoolerMasterNumLockToggle/CoolerMasterNumLockToggle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -427,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CoolerMasterNumLockToggle/CoolerMasterNumLockToggle.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -435,6 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peck.CoolerMasterNumLockToggle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoolerMasterNumLockToggle/CoolerMasterNumLockToggle-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

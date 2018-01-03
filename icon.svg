@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="icon.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.2445411"
+     inkscape:cx="374.02513"
+     inkscape:cy="711.03912"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1396"
+     inkscape:window-x="9"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.27272496px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 58.09626,102.67565 9.985287,-6.384333 9.985287,6.384333 h -1.997057 v 3.19217 h 0.998528 v 2.12811 H 59.094789 v -2.12811 h 0.998528 v -3.19217 z"
+       id="path16"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-xdpi="42.323387"
+       inkscape:export-ydpi="42.323387" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.17829609px;line-height:1.25;font-family:'.KufiStandardGK PUA';-inkscape-font-specification:'.KufiStandardGK PUA';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15445741"
+       x="73.007431"
+       y="89.054939"
+       id="text12"
+       transform="scale(0.82963351,1.2053515)"
+       inkscape:export-xdpi="42.323387"
+       inkscape:export-ydpi="42.323387"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="73.007431"
+         y="89.054939"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.15445741">NUMLK</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3748"
+       d="m 58.09626,117.68034 9.985287,-6.38434 9.985287,6.38434 h -1.997057 v 3.19217 h 0.998528 v 2.12811 H 59.094789 v -2.12811 h 0.998528 v -3.19217 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.27272496px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="42.323387"
+       inkscape:export-ydpi="42.323387" />
+    <text
+       transform="scale(0.82963351,1.2053515)"
+       id="text3752"
+       y="101.50333"
+       x="73.007431"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.17829609px;line-height:1.25;font-family:'.KufiStandardGK PUA';-inkscape-font-specification:'.KufiStandardGK PUA';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.15445741"
+       xml:space="preserve"
+       inkscape:export-xdpi="42.323387"
+       inkscape:export-ydpi="42.323387"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';fill:#ffffff;stroke-width:0.15445741"
+         y="101.50333"
+         x="73.007431"
+         id="tspan3750"
+         sodipodi:role="line">NUMLK</tspan></text>
+  </g>
+</svg>
